@@ -1,0 +1,30 @@
+{
+  "name": "jstock",
+  "version": "0.0.1",
+  "description": "A pure js library to calculate MACD/KDJ/BOLL... for stock",
+  "main": "index.js",
+  "scripts": {
+    "test": "nyc mocha --timeout=3000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/quick-sort/jstock.git"
+  },
+  "keywords": [
+    "stock",
+    "macd",
+    "kdj",
+    "boll"
+  ],
+  "author": "Rui Zhou",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/quick-sort/jstock/issues"
+  },
+  "homepage": "https://github.com/quick-sort/jstock#readme",
+  "devDependencies": {
+    "eslint": "^5.9.0",
+    "mocha": "^5.2.0",
+    "nyc": "^13.1.0"
+  }
+}
